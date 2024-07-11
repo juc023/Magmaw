@@ -1,13 +1,13 @@
 # Magmaw
-This provides the reference implementation for Magmaw: Modality-Agnostic Adversarial Attacks on
-Machine Learning-Based Wireless Communication Systems. 
+Official implementation for *Magmaw: Modality-Agnostic Adversarial Attacks on
+Machine Learning-Based Wireless Communication Systems*. 
 
-We validate Magmaw through simulation, and then thoroughly conduct a real-world evaluation with [software-defined radio (SDR)](https://wiki.gnuradio.org/index.php/Tutorials).
+We validate Magmaw through simulation, and then thoroughly conduct a real-world evaluation with [Software-Defined Radio (SDR)](https://wiki.gnuradio.org/index.php/Tutorials).
 
 ## Prerequisite
 Magmaw is implemented with [Python 3.7](https://www.python.org/downloads/) and [PyTorch 1.7.1](https://pytorch.org/). We manage the development environment using [Conda](https://anaconda.org/anaconda/conda).
 
-Execute the following commands to configure the development environment.
+Please go ahead and execute the following commands to configure the development environment.
 - Create a conda environment called `Magmaw` based on Python 3.7, and activate the environment.
     ```bash
     conda create -n Magmaw python=3.7 --file requirements.txt
@@ -68,9 +68,9 @@ Attack: black, Morality text, RX BLEU_4g: [0.08387463]
 ## SDR Implementation
 <div align="center"> <img src="./SDR_setup.png" height=250> </div>
 
-The block diagram of our SDR implementation presented in the above figure. We construct the legitimate transmitter, legitimate receiver, and adversarial transmitter following the above block diagram. 
+The block diagram of our SDR implementation is presented in the above figure. We construct the legitimate transmitter, legitimate receiver, and adversarial transmitter following the above block diagram. 
 
-We utilize GNURadio to transmit and receive radio signals, and USRP for the SDR implementation.
+We utilize [GNURadio software package](https://wiki.gnuradio.org/index.php/Tutorials) to control USRP SDRs.
 
 The above process is as follows.
 
@@ -88,7 +88,7 @@ We show one of the real-world attack scenarios in the above Figure.
 
 ## Real-World Data
 
-Using [GNURadio software package](https://wiki.gnuradio.org/index.php/Tutorials), we stored the index of constellation points generated after demodulation.
+Using GNURadio, we stored the index of constellation points generated after demodulation.
 
 We also store the reference data to compare the results.
 
