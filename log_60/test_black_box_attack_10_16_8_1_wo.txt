@@ -1,0 +1,9 @@
+psr: -16 cd_rate: 1 mod: QAM degree: 16
+ Attack: random, Morality video, RX psnr : 32.92, RX msssim: 0.909
+ Attack: black, Morality video, RX psnr : 27.72, RX msssim: 0.805
+ Attack: random, Morality image, RX psnr : 34.08, RX msssim: 0.925
+ Attack: black, Morality image, RX psnr : 28.10, RX msssim: 0.823
+ Attack: random, Morality speech, RX MSE: 0.0000550
+ Attack: black, Morality speech, RX MSE: 0.0006523
+ Attack: random, Morality text, RX BLEU_1g: [0.92747291]  Attack: random, Morality text, RX BLEU_2g: [0.8617476]  Attack: random, Morality text, RX BLEU_3g: [0.79970497]  Attack: random, Morality text, RX BLEU_4g: [0.73994322] 
+ Attack: black, Morality text, RX BLEU_1g: [0.48864823]  Attack: black, Morality text, RX BLEU_2g: [0.2488876]  Attack: black, Morality text, RX BLEU_3g: [0.13983744]  Attack: black, Morality text, RX BLEU_4g: [0.08387463] 
