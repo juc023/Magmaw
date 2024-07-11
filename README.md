@@ -68,11 +68,11 @@ Attack: black, Morality text, RX BLEU_4g: [0.08387463]
 ## SDR Implementation
 <div align="center"> <img src="./SDR_setup.png" height=250> </div>
 
-The block diagram of our SDR implementation is presented in the above figure. We construct the legitimate transmitter, legitimate receiver, and adversarial transmitter following the above block diagram. 
+The block diagram of our SDR implementation is presented in the above figure. Following the above block diagram, we construct the legitimate transmitter, legitimate receiver, and adversarial transmitter. 
 
 We utilize [GNURadio software package](https://wiki.gnuradio.org/index.php/Tutorials) to control USRP SDRs.
 
-The above process is as follows.
+We follow the steps below. 
 
 * We first store the symbols encoded by multimodal JSCC in a txt file.
 
