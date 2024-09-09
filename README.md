@@ -121,3 +121,15 @@ python evaluate_SDR.py
 Validation, Attack: no, Morality: image, TX psnr : 34.37, TX msssim: 0.940, RX psnr : 33.30, RX msssim: 0.927
 Validation, Attack: black, Morality: image, TX psnr : 34.37, TX msssim: 0.940, RX psnr : 25.81, RX msssim: 0.724
 ```
+### NDSS'25 Publication
+
+If you have used Magmaw to develop a research work or product, please cite our paper:
+
+```
+@article{chang2023magmaw,
+  title={Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based Wireless Communication Systems},
+  author={Chang, Jung-Woo and Sun, Ke and Heydaribeni, Nasimeh and Hidano, Seira and Zhang, Xinyu and Koushanfar, Farinaz},
+  journal={arXiv preprint arXiv:2311.00207},
+  year={2023}
+}
+```
